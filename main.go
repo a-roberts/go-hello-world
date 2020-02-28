@@ -7,7 +7,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	log.Print("Hello world received a request. 12:54pm")
+	log.Print("Hello world received a request. 10:14am")
 	fmt.Fprintf(w, "Hello World! \n")
 }
 
